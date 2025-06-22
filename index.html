@@ -101,23 +101,20 @@
     }
   </style>
   <script src="https://unpkg.com/html5-qrcode@2.3.8/html5-qrcode.min.js"></script>
-  <!-- Babel Standalone for JSX/TSX transpilation in browser -->
-  <script src="https://unpkg.com/@babel/standalone/babel.min.js"></script>
+  <!-- El script de la aplicación (bundle.js) será insertado aquí por el proceso de build en la copia que va a 'dist' -->
+  <!-- Por ejemplo: <script src="./bundle.js" defer></script> -->
 <script type="importmap">
 {
   "imports": {
-    "react/": "https://esm.sh/react@^19.1.0/",
-    "react": "https://esm.sh/react@^19.1.0",
-    "react-dom/": "https://esm.sh/react-dom@^19.1.0/"
+    "react-dom/": "https://esm.sh/react-dom@^19.1.0/",
+    "react": "https://esm.sh/react@^19.1.0"
   }
 }
 </script>
 </head>
 <body class="bg-slate-900 text-slate-100 font-inter">
   <div id="root"></div>
-  <!-- React application will be injected here -->
-  <!-- Load main application script, to be transpiled by Babel -->
-  <script type="text/babel" data-presets="react,typescript" data-type="module" src="./index.tsx"></script>
+  <!-- El script de la aplicación (bundle.js) que se genera en 'dist' se enlazará aquí en la copia de 'dist/index.html' -->
 </body>
 </html>
     
