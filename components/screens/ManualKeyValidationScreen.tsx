@@ -3,7 +3,7 @@ import React, { useState } from 'react';
 import { Button } from '../Button';
 import { KeyIcon } from '../icons/KeyIcon';
 import { QrCodeIcon } from '../icons/QrCodeIcon';
-import { COLORS } from '../../constants';
+import { COLORS, DESAFIOS } from '../../constants'; // Importar DESAFIOS
 import { Challenge } from '../../types';
 
 interface ManualKeyValidationScreenProps {
@@ -38,15 +38,26 @@ export const ManualKeyValidationScreen: React.FC<ManualKeyValidationScreenProps>
 
   if (!challenge) {
     return (
-      <div className={`flex flex-col items-center justify-center min-h-screen p-6 ${COLORS.primary} animate-fadeIn`}> {/* Removed pb-28 */}
+      <div className={`flex flex-col items-center justify-center min-h-screen p-6 ${COLORS.primary} animate-fadeIn`}>
         <p>Error: Desafío no encontrado.</p>
         <Button onClick={onBack} className="mt-4">Volver</Button>
       </div>
     );
   }
 
+  // Lógica para asegurar que la pista se muestre
+  let displayHint = challenge.manualKeyHint;
+  if (!displayHint && challenge.id) {
+    // Si la pista no está en el desafío actual (posiblemente de localStorage antiguo),
+    // búscala en la lista maestra de DESAFIOS.
+    const masterChallengeData = DESAFIOS.find(d => d.id === challenge.id);
+    if (masterChallengeData && masterChallengeData.manualKeyHint) {
+      displayHint = masterChallengeData.manualKeyHint;
+    }
+  }
+
   return (
-    <div className={`flex flex-col items-center justify-center min-h-screen p-6 ${COLORS.primary} animate-fadeIn`}> {/* Removed pb-28 */}
+    <div className={`flex flex-col items-center justify-center min-h-screen p-6 ${COLORS.primary} animate-fadeIn`}>
       <div className={`w-full max-w-md mx-auto p-6 md:p-8 rounded-xl shadow-2xl ${COLORS.secondary}`}>
         <div className="text-center mb-6">
           <KeyIcon className={`w-16 h-16 ${COLORS.textAccent} mx-auto mb-4`} />
@@ -91,9 +102,9 @@ export const ManualKeyValidationScreen: React.FC<ManualKeyValidationScreenProps>
               className={`w-full px-4 py-3 rounded-lg ${COLORS.primary} ${COLORS.textPrimary} border ${COLORS.border} focus:ring-2 focus:ring-amber-500 focus:border-amber-500 outline-none transition-shadow`}
               placeholder="Ej: WOODS_KEY_123"
             />
-             {challenge.manualKeyHint && (
+             {displayHint && ( // Usar displayHint aquí
                 <p className={`text-xs ${COLORS.textSecondary} mt-1 px-1`}>
-                    {challenge.manualKeyHint}
+                    {displayHint}
                 </p>
              )}
           </div>
