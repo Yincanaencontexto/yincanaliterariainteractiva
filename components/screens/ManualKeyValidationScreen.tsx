@@ -38,7 +38,7 @@ export const ManualKeyValidationScreen: React.FC<ManualKeyValidationScreenProps>
 
   if (!challenge) {
     return (
-      <div className={`flex flex-col items-center justify-center min-h-screen p-6 ${COLORS.primary} animate-fadeIn pb-28`}> {/* Changed pb-24 to pb-28 */}
+      <div className={`flex flex-col items-center justify-center min-h-screen p-6 ${COLORS.primary} animate-fadeIn`}> {/* Removed pb-28 */}
         <p>Error: Desafío no encontrado.</p>
         <Button onClick={onBack} className="mt-4">Volver</Button>
       </div>
@@ -46,7 +46,7 @@ export const ManualKeyValidationScreen: React.FC<ManualKeyValidationScreenProps>
   }
 
   return (
-    <div className={`flex flex-col items-center justify-center min-h-screen p-6 ${COLORS.primary} animate-fadeIn pb-28`}> {/* Changed pb-24 to pb-28 */}
+    <div className={`flex flex-col items-center justify-center min-h-screen p-6 ${COLORS.primary} animate-fadeIn`}> {/* Removed pb-28 */}
       <div className={`w-full max-w-md mx-auto p-6 md:p-8 rounded-xl shadow-2xl ${COLORS.secondary}`}>
         <div className="text-center mb-6">
           <KeyIcon className={`w-16 h-16 ${COLORS.textAccent} mx-auto mb-4`} />

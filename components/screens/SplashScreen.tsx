@@ -35,5 +35,4 @@ export const SplashScreen: React.FC<SplashScreenProps> = ({ onStart }) => {
       </Button>
     </div>
   );
-};
-    
+}; 

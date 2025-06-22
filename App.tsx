@@ -175,7 +175,7 @@ const App: React.FC = () => {
 
   return (
     <div className={`min-h-screen flex flex-col ${COLORS.primary}`}>
-      <main className="flex-grow">
+      <main className="flex-grow pb-24"> {/* Added pb-24 here */}
         {renderScreen()}
       </main>
       {showBottomNav && <BottomNavigationBar currentView={currentView} onNavigate={handleNavigate} />}
