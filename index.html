@@ -102,6 +102,8 @@
     }
   </style>
   <script src="https://unpkg.com/html5-qrcode@2.3.8/html5-qrcode.min.js"></script>
+  <!-- Babel Standalone for JSX/TSX transpilation in browser -->
+  <script src="https://unpkg.com/@babel/standalone/babel.min.js"></script>
 <script type="importmap">
 {
   "imports": {
@@ -115,7 +117,8 @@
 <body class="bg-slate-900 text-slate-100 font-inter">
   <div id="root"></div>
   <!-- React application will be injected here -->
-  <script type="module" src="./index.js"></script>
+  <!-- Load main application script, to be transpiled by Babel -->
+  <script type="text/babel" data-type="module" src="./index.tsx"></script>
 </body>
 </html>
     
