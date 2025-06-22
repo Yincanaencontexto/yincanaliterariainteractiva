@@ -19,7 +19,7 @@ export const HomeScreen: React.FC<HomeScreenProps> = ({ challenges, onChallengeS
   const progressPercentage = totalScore > 0 ? Math.round((score / totalScore) * 100) : 0;
 
   return (
-    <div className={`min-h-screen ${COLORS.primary} pb-24 animate-fadeIn`}> {/* Added pb-24 for bottom nav */}
+    <div className={`min-h-screen ${COLORS.primary} pb-28 animate-fadeIn`}> {/* Changed pb-24 to pb-28 */}
       <div className="relative max-w-4xl mx-auto">
         <div className="relative h-56 md:h-64 overflow-hidden rounded-b-lg mx-0 md:mx-4 md:mt-4 shadow-lg">
           {!imageError ? (
@@ -72,4 +72,3 @@ export const HomeScreen: React.FC<HomeScreenProps> = ({ challenges, onChallengeS
     </div>
   );
 };
-    

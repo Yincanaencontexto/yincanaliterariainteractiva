@@ -36,7 +36,7 @@ export const QuestionScreen: React.FC<QuestionScreenProps> = ({
 
   if (!challenge) {
     return (
-      <div className={`flex flex-col items-center justify-center min-h-screen p-6 ${COLORS.primary} animate-fadeIn pb-24`}>
+      <div className={`flex flex-col items-center justify-center min-h-screen p-6 ${COLORS.primary} animate-fadeIn pb-28`}> {/* Changed pb-24 to pb-28 */}
         <p>Error: Desafío no encontrado.</p>
         <Button onClick={onBack} className="mt-4">Volver</Button>
       </div>
@@ -44,7 +44,7 @@ export const QuestionScreen: React.FC<QuestionScreenProps> = ({
   }
 
   return (
-    <div className={`flex flex-col items-center justify-center min-h-screen p-6 ${COLORS.primary} animate-fadeIn pb-24`}>
+    <div className={`flex flex-col items-center justify-center min-h-screen p-6 ${COLORS.primary} animate-fadeIn pb-28`}> {/* Changed pb-24 to pb-28 */}
       <div className={`w-full max-w-md mx-auto p-8 rounded-xl shadow-2xl ${COLORS.secondary}`}>
         <KeyIcon className={`w-16 h-16 ${COLORS.textAccent} mx-auto mb-6`} /> {/* Consider using a different icon, e.g., Lightbulb for question/hint */}
         <h1 className={`text-3xl font-cinzel-decorative font-bold text-center mb-4 ${COLORS.textPrimary}`}>
@@ -91,4 +91,3 @@ export const QuestionScreen: React.FC<QuestionScreenProps> = ({
     </div>
   );
 };
-    

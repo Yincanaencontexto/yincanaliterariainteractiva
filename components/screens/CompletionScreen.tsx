@@ -1,3 +1,4 @@
+
 import React from 'react';
 import { Button } from '../Button';
 import { CheckCircleIcon } from '../icons/CheckCircleIcon'; // Re-using, or could be a TrophyIcon
@@ -25,7 +26,7 @@ export const CompletionScreen: React.FC<CompletionScreenProps> = ({ score, total
   };
 
   return (
-    <div className={`flex flex-col items-center justify-center min-h-screen p-4 md:p-6 ${COLORS.primary} animate-fadeIn pb-24`}>
+    <div className={`flex flex-col items-center justify-center min-h-screen p-4 md:p-6 ${COLORS.primary} animate-fadeIn pb-28`}> {/* Changed pb-24 to pb-28 */}
       <div className={`w-full max-w-2xl mx-auto p-6 md:p-8 rounded-xl shadow-2xl ${COLORS.secondary} text-center`}>
         <div className="mb-8">
           <div className="flex justify-center mb-6">
@@ -79,4 +80,4 @@ export const CompletionScreen: React.FC<CompletionScreenProps> = ({ score, total
       </div>
     </div>
   );
-    
+};

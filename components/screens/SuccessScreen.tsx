@@ -14,7 +14,7 @@ export const SuccessScreen: React.FC<SuccessScreenProps> = ({ challenge, onConti
   if (!challenge) {
     // Should ideally not happen if logic is correct
     return (
-      <div className={`flex flex-col items-center justify-center min-h-screen p-6 ${COLORS.primary} animate-fadeIn pb-24`}>
+      <div className={`flex flex-col items-center justify-center min-h-screen p-6 ${COLORS.primary} animate-fadeIn pb-28`}> {/* Changed pb-24 to pb-28 */}
         <p>Error: Información del desafío no disponible.</p>
         <Button onClick={onContinue} className="mt-4">Continuar</Button>
       </div>
@@ -22,7 +22,7 @@ export const SuccessScreen: React.FC<SuccessScreenProps> = ({ challenge, onConti
   }
 
   return (
-    <div className={`flex flex-col items-center justify-center min-h-screen p-6 ${COLORS.primary} animate-fadeIn pb-24`}>
+    <div className={`flex flex-col items-center justify-center min-h-screen p-6 ${COLORS.primary} animate-fadeIn pb-28`}> {/* Changed pb-24 to pb-28 */}
       <div className={`w-full max-w-lg mx-auto p-8 rounded-xl shadow-2xl ${COLORS.secondary} text-center`}>
         <CheckCircleIcon className="w-20 h-20 md:w-24 md:h-24 text-green-500 mx-auto mb-6" />
         <h1 className={`text-3xl md:text-4xl font-cinzel-decorative font-bold mb-3 ${COLORS.textAccent}`}>
