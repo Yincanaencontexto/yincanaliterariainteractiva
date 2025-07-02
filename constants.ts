@@ -29,7 +29,7 @@ export const DESAFIOS: Challenge[] = [
     answerHintInBook: "Es un acto cotidiano que se realiza paso a paso.",
     bookWordLocationHint: "Esta palabra es el nombre de una vereda y la puedes encontrar en la página 0,000 N 0,002 W.",
     nextQrHint: "Busca el siguiente símbolo cerca de la rosa de los vientos en la página 0,000 N 0,006 W",
-    qrCodeLocationHint: "El QR para este desafío está guardada en algún lugar de la página 0,000 N 0,003 W.",
+    qrCodeLocationHint: "En la pantalla de inicio, puedes seguir el camino lineal o tomar el atajo que prefieras",
     manualKeyHint: "La clave (ej. UNA_FRASE_PARECIDA_123) está escrita en la página 0,000 N 0,006 W."
   },
   { 
@@ -44,7 +44,7 @@ export const DESAFIOS: Challenge[] = [
     successMessage: "Ya estás en el territorio de los sentidos, el mapa te habla, el camino sigue.",
     answerHintInBook: "Esta es una invitación a confiar en los procesos, leyendo la página 1,111 N 1,016 W encontrarás la respuesta.",
     bookWordLocationHint: "La palabra clave es la coordenada del viaje que representa la imaginación infinita, según el texto de la página 1,111 N 1,009 W.",
-    nextQrHint: "El siguiente emblema está grabado en el lomo del atlas más grande en la sección de geografía.",
+    nextQrHint: "En la pantalla de inicio, puedes seguir el camino lineal o tomar el atajo que prefieras",
     qrCodeLocationHint: "Encontrarás el QR cerca de la rosa de los vientos, en la página 0,000 N 0,006 W",
     manualKeyHint: "La clave (ej. UNA_FRASE_PARECIDA_456) se encuentra cerca de la brújula de la introducción."
   },
@@ -60,7 +60,7 @@ export const DESAFIOS: Challenge[] = [
     successMessage: "Las estrellas mismas se realinean, y la montaña tiembla mientras un poder ancestral se agita.",
     answerHintInBook: "Las cartas celestiales en el apéndice muestran la constelación del 'Descanso del Gigante'.",
     bookWordLocationHint: "Esta palabra se encuentra en la profecía grabada en el observatorio, sección de astronomía.",
-    nextQrHint: "Encuentra el siguiente QR cerca de la entrada del observatorio, oculto por una piedra suelta.",
+    nextQrHint: "En la pantalla de inicio, puedes seguir el camino lineal o tomar el atajo que prefieras",
     qrCodeLocationHint: "El QR del Pico está en la página 42, al lado del poema sobre las estrellas fugaces.",
     manualKeyHint: "La clave (ej. PEAK_KEY_EXAMPLE_789) está impresa en vertical al margen de la página 42."
   },
@@ -76,7 +76,7 @@ export const DESAFIOS: Challenge[] = [
     successMessage: "Los cristales vibran en armonía, y un pasaje oculto resplandece ante ti.",
     answerHintInBook: "Busca la respuesta en la descripción de la 'Cámara de los Ecos', capítulo 3.",
     bookWordLocationHint: "La palabra está oculta en el acertijo del guardián de la caverna, al final del capítulo 3.",
-    nextQrHint: "El siguiente símbolo está grabado detrás de la cascada de la entrada sur.",
+    nextQrHint: "En la pantalla de inicio, puedes seguir el camino lineal o tomar el atajo que prefieras",
     qrCodeLocationHint: "El QR de las Cavernas está oculto en la ilustración de la página 67, dentro de un cristal grande.",
     manualKeyHint: "Busca la clave (ej. CAVES_KEY_GLIMMER_XYZ) en la leyenda de la ilustración de la página 67."
   },
@@ -92,7 +92,7 @@ export const DESAFIOS: Challenge[] = [
     successMessage: "Con un clic satisfactorio, los engranajes de la ciudad giran, revelando una nueva maravilla de la ingeniería.",
     answerHintInBook: "El diagrama del 'Mecanismo Central' en el capítulo de inventos tiene la clave.",
     bookWordLocationHint: "Encuentra esta palabra en los planos del inventor, cerca del diagrama del Gran Reloj.",
-    nextQrHint: "El próximo QR está en la placa del reloj de la plaza mayor.",
+    nextQrHint: "En la pantalla de inicio, puedes seguir el camino lineal o tomar el atajo que prefieras",
     qrCodeLocationHint: "Busca el QR de la Ciudad de Engranajes en el glosario, junto a la definición de 'Mecanismo'.",
     manualKeyHint: "La clave (ej. CITY_KEY_GEARS_ABC) está al final de la definición de 'Mecanismo' en el glosario."
   },
