@@ -18,7 +18,7 @@ export const URL_IMAGE_HOME_SCREEN = 'https://fundacionleaencontexto.com/wp-cont
 export const DESAFIOS: Challenge[] = [
   { 
     id: 1, 
-    name: 'Metáfora de vida', 
+    name: '01-Metáfora de vida', 
     apiKey: 'ROSA_DE_LOS_VIENTOS_001', 
     bookWord: 'corrales', 
     points: 10, 
@@ -26,7 +26,7 @@ export const DESAFIOS: Challenge[] = [
     questionPrompt: "Lee la página 0,000 N 0,004 W y encuentra el corazón de este proyecto; un proceso inherente a la vida misma",
     correctAnswer: "Caminar", 
     successMessage: "Ya abriste la puerta que te llevará a un mundo nuevo El sendero se despeja.",
-    answerHintInBook: "La respuesta se encuentra en el capítulo sobre espíritus del bosque, página 12.",
+    answerHintInBook: "Es un acto cotidiano que se realiza paso a paso.",
     bookWordLocationHint: "Esta palabra es el nombre de una vereda y la puedes encontrar en la página 0,000 N 0,002 W.",
     nextQrHint: "Busca el siguiente símbolo cerca de la rosa de los vientos en la página 0,000 N 0,006 W",
     qrCodeLocationHint: "El QR para este desafío está guardada en algún lugar de la página 0,000 N 0,003 W.",
@@ -34,7 +34,7 @@ export const DESAFIOS: Challenge[] = [
   },
   { 
     id: 2, 
-    name: 'El mapa parlante', 
+    name: '02-El mapa parlante', 
     apiKey: 'UN_CAMINO_POR_RECORRER_002', 
     bookWord: 'latitud', 
     points: 15, 
