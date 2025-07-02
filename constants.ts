@@ -28,8 +28,8 @@ export const DESAFIOS: Challenge[] = [
     successMessage: "Ya abriste la puerta que te llevará a un mundo nuevo El sendero se despeja.",
     answerHintInBook: "Es un acto cotidiano que se realiza paso a paso.",
     bookWordLocationHint: "Esta palabra es el nombre de una vereda y la puedes encontrar en la página 0,000 N 0,002 W.",
-    nextQrHint: "Busca el siguiente símbolo cerca de la rosa de los vientos en la página 0,000 N 0,006 W",
-    qrCodeLocationHint: "En la pantalla de inicio, puedes seguir el camino lineal o tomar el atajo que prefieras",
+    nextQrHint: "En la pantalla de inicio, puedes seguir el camino lineal o tomar el atajo que prefieras",
+    qrCodeLocationHint: "El QR está escondido en algún lugar de la página 0,000 N 0,003 W",
     manualKeyHint: "La clave (ej. UNA_FRASE_PARECIDA_123) está escrita en la página 0,000 N 0,006 W."
   },
   { 
