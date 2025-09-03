@@ -79,7 +79,7 @@ export const DESAFIOS: Challenge[] = [
     qrCodeLocationHint: "El QR de la Creatividad estÃ¡ junto a la ilustraciÃ³n de la niÃ±a vestida de mar en la pÃ¡gina 3,333 N 3,029 W.",
     manualKeyHint: "Busca la clave (ej. CAVES_KEY_GLIMMER_234) en una orilla de la pÃ¡gina 2,222Â°N - 2,023Â°W."
   },
-  { 
+ { 
     id: 5, 
     name: 'Cambios de Rol', 
     apiKey: 'EL_ARTE_COMO_BRÃšJULA_005', 
@@ -90,10 +90,10 @@ export const DESAFIOS: Challenge[] = [
     correctAnswer: "la escritura creativa", 
     successMessage: "Con un clic satisfactorio, los pasos siguen, revelando nuevas maravillas en el camino.",
     answerHintInBook: "Encuentra la respuesta a esta pregunta al lado de la foto de la pÃ¡gina 4,444Â°N - 4,040Â°W.",
-    bookWordLocationHint: "Cada una de las partes en que estÃ¡ dividida la capacitaciÃ³n a docentes, encuentra esta palabra clave en la pÃ¡gina 4,444Â°N - 4,039Â°W.",
+    bookWordLocationHint: "Encuentra la clave en la pÃ¡gina 3,333Â°N - 3,033Â°W al lado de las niÃ±as y niÃ±os que dibujan sobre las sillas.",
     nextQrHint: null,
     qrCodeLocationHint: "Encuentra el cÃ³digo QR en la pÃ¡gina donde se habla de Nuevas TecnologÃ­as de IA en Procesos Educativos Rurales.",
-    manualKeyHint: "Encuentra la clave en la pÃ¡gina 3,333Â°N - 3,033Â°W al lado de las niÃ±as y niÃ±os que dibujan sobre las sillas."
+    manualKeyHint: "Cada una de las partes en que estÃ¡ dividida la capacitaciÃ³n a docentes, encuentra esta palabra clave en la pÃ¡gina 4,444Â°N - 4,039Â°W."
   },
   { 
     id: 6, 
