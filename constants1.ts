@@ -90,7 +90,7 @@ export const DESAFIOS: Challenge[] = [
     correctAnswer: "la escritura creativa", 
     successMessage: "Con un clic satisfactorio, los pasos siguen, revelando nuevas maravillas en el camino.",
     answerHintInBook: "Encuentra la respuesta a esta pregunta al lado de la foto de la pÃ¡gina 4,444Â°N - 4,040Â°W.",
-    bookWordLocationHint: "Encuentra la clave en la pÃ¡gina 3,333Â°N - 3,033Â°W al lado de las niÃ±as y niÃ±os que dibujan sobre las sillas.",
+    bookWordLocationHint: "Cada una de las partes en que estÃ¡ dividida la capacitaciÃ³n a docentes, encuentra esta palabra clave en la pÃ¡gina 4,444Â°N - 4,039Â°W.",
     nextQrHint: null,
     qrCodeLocationHint: "Encuentra el cÃ³digo QR en la pÃ¡gina donde se habla de Nuevas TecnologÃ­as de IA en Procesos Educativos Rurales.",
     manualKeyHint: "Cada una de las partes en que estÃ¡ dividida la capacitaciÃ³n a docentes, encuentra esta palabra clave en la pÃ¡gina 4,444Â°N - 4,039Â°W."
