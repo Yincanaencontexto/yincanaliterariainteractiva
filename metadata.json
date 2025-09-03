@@ -1,0 +1,8 @@
+{
+  "name": "Yincana Literaria Digital",
+  "description": "Una aplicación complementaria para una yincana literaria basada en un libro físico, mejorada con escaneo QR intuitivo y pistas claras.",
+  "requestFramePermissions": [
+    "camera"
+  ],
+  "prompt": ""
+}

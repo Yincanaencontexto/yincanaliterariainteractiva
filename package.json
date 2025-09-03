@@ -1,0 +1,27 @@
+{
+  "name": "yincana-literaria-digital",
+  "version": "1.0.0",
+  "description": "Yincana Literaria Digital con React y TypeScript",
+  "private": true,
+  "homepage": "https://Yincanaencontexto.github.io/yincanaliterariainteractiva",
+  "scripts": {
+    "predeploy": "npm run build",
+    "prebuild": "node -e \"const fs = require('fs-extra'); if (fs.existsSync('dist')) { fs.rmSync('dist', { recursive: true, force: true }); } fs.mkdirSync('dist');\"",
+    "build:js": "esbuild index.tsx --bundle --outfile=dist/bundle.js --jsx=automatic --loader:.ts=ts --loader:.tsx=tsx --define:process.env.NODE_ENV='\"production\"' --minify",
+    "build:html": "node -e \"const fs = require('fs'); let html = fs.readFileSync('index.html', 'utf-8'); html = html.replace(/<script type=\\\"importmap\\\">[\\s\\S]*?<\\/script>/gs, ''); html = html.replace('</body>', '<script src=\\\"./bundle.js\\\" defer><\\/script>\\n</body>'); fs.writeFileSync('dist/index.html', html);\"",
+    "build": "npm run prebuild && npm run build:html && npm run build:js",
+    "deploy": "gh-pages -d dist"
+  },
+  "dependencies": {
+    "react": "^19.1.0",
+    "react-dom": "^19.1.0"
+  },
+  "devDependencies": {
+    "@types/react": "^18.3.3",
+    "@types/react-dom": "^18.3.0",
+    "esbuild": "^0.23.0",
+    "fs-extra": "^11.2.0",
+    "gh-pages": "^6.1.1",
+    "typescript": "^5.5.3"
+  }
+}
