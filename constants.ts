@@ -80,22 +80,6 @@ export const DESAFIOS: Challenge[] = [
     manualKeyHint: "Busca la clave (ej. CAVES_KEY_GLIMMER_234) en una orilla de la pÃ¡gina 2,222Â°N - 2,023Â°W."
   },
   { 
-    id: 5, 
-    name: 'Cambios de Rol', 
-    apiKey: 'EL_ARTE_COMO_BRÃšJULA_005', 
-    bookWord: 'mÃ³dulo', 
-    points: 30, 
-    completed: false,
-    questionPrompt: "SegÃºn Albeiro Ãlvarez No es un lujo, sino una herramienta esencial para desarrollar pensamiento crÃ­tico y resoluciÃ³n de problemas.",
-    correctAnswer: "la escritura creativa", 
-    successMessage: "Con un clic satisfactorio, los pasos siguen, revelando nuevas maravillas en el camino.",
-    answerHintInBook: "Encuentra la respuesta a esta pregunta al lado de la foto de la pÃ¡gina 4,444Â°N - 4,040Â°W.",
-    bookWordLocationHint: "Cada una de las partes en que estÃ¡ dividida la capacitaciÃ³n a docentes, encuentra esta palabra clave en la pÃ¡gina 4,444Â°N - 4,039Â°W.",
-    nextQrHint: null,
-    qrCodeLocationHint: "Encuentra el cÃ³digo QR en la pÃ¡gina donde se habla de Nuevas TecnologÃ­as de IA en Procesos Educativos Rurales.",
-    manualKeyHint: "Encuentra la clave en la pÃ¡gina 3,333Â°N - 3,033Â°W al lado de las niÃ±as y niÃ±os que dibujan sobre las sillas."
-  },
-  { 
     id: 6, 
     name: 'La pared cambiÃ³ de piel', 
     apiKey: 'ESTO_SE_PUSO_Ã‰PICO_006', 
@@ -142,5 +126,21 @@ export const DESAFIOS: Challenge[] = [
     nextQrHint: null, 
     qrCodeLocationHint: "Encuentra el cÃ³digo QR al final de las conclusiones.",
     manualKeyHint: "La clave (ej. SHRINE_KEY_WHISPER_786) se encuentra en uno de los lados de la pÃ¡gina 5,555Â°N - 5,044Â°W."
+  },
+   { 
+    id: 9, 
+   name: 'Cambios de Rol', 
+    apiKey: 'EL_ARTE_COMO_BRÃšJULA_005', 
+    bookWord: 'mÃ³dulo', 
+    points: 30, 
+    completed: false,
+    questionPrompt: "SegÃºn Albeiro Ãlvarez No es un lujo, sino una herramienta esencial para desarrollar pensamiento crÃ­tico y resoluciÃ³n de problemas.",
+    correctAnswer: "la escritura creativa", 
+    successMessage: "Con un clic satisfactorio, los pasos siguen, revelando nuevas maravillas en el camino.",
+    answerHintInBook: "Encuentra la respuesta a esta pregunta al lado de la foto de la pÃ¡gina 4,444Â°N - 4,040Â°W.",
+    bookWordLocationHint: "Cada una de las partes en que estÃ¡ dividida la capacitaciÃ³n a docentes, encuentra esta palabra clave en la pÃ¡gina 4,444Â°N - 4,039Â°W.",
+    nextQrHint: null,
+    qrCodeLocationHint: "Encuentra el cÃ³digo QR en la pÃ¡gina donde se habla de Nuevas TecnologÃ­as de IA en Procesos Educativos Rurales.",
+    manualKeyHint: "Encuentra la clave en la pÃ¡gina 3,333Â°N - 3,033Â°W al lado de las niÃ±as y niÃ±os que dibujan sobre las sillas."
   },
 ];
