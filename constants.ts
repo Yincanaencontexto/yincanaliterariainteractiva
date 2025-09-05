@@ -1,35 +1,23 @@
-import { Challenge, ColorsConfig } from './types';
-
-export const COLORS: ColorsConfig = {
-  primary: 'bg-slate-900',
-  secondary: 'bg-slate-800',
-  accent: 'bg-amber-500',
-  textPrimary: 'text-slate-100',
-  textSecondary: 'text-slate-400',
-  textAccent: 'text-amber-500',
-  border: 'border-slate-700',
-  buttonPrimary: 'bg-amber-500 hover:bg-amber-600',
-  buttonSecondary: 'bg-slate-700 hover:bg-slate-600',
-};
+import type { Challenge } from '../types';
 
 export const URL_IMAGE_HOME_SCREEN = 'https://fundacionleaencontexto.com/wp-content/uploads/2025/06/caminante.webp';
 
 export const DESAFIOS: Challenge[] = [
   { 
     id: 1, 
-    name: 'MetÃ¡fora de vida', 
+    name: 'Metáfora de vida', 
     apiKey: 'ROSA_DE_LOS_VIENTOS_001', 
     bookWord: 'corrales', 
     points: 10, 
     completed: false,
-    questionPrompt: "Lee la pÃ¡gina 0,000 N 0,004 W y encuentra el corazÃ³n de este proyecto; un proceso inherente a la vida misma",
+    questionPrompt: "Lee la página 0,000 N 0,004 W y encuentra el corazón de este proyecto; un proceso inherente a la vida misma",
     correctAnswer: "Caminar", 
-    successMessage: "Ya abriste la puerta que te llevarÃ¡ a un mundo nuevo El sendero se despeja.",
-    answerHintInBook: "Es lo que hace una persona cuando quiere trasladarse de un lugar a otro sin usar un vehÃ­culo",
-    bookWordLocationHint: "Esta palabra es el nombre de una vereda y la puedes encontrar en la pÃ¡gina 0,000 N 0,002 W.",
+    successMessage: "Ya abriste la puerta que te llevará a un mundo nuevo El sendero se despeja.",
+    answerHintInBook: "Es lo que hace una persona cuando quiere trasladarse de un lugar a otro sin usar un vehículo",
+    bookWordLocationHint: "Esta palabra es el nombre de una vereda y la puedes encontrar en la página 0,000 N 0,002 W.",
     nextQrHint: null,
-    qrCodeLocationHint: "El QR para este desafÃ­o estÃ¡ guardada en algÃºn lugar de la pÃ¡gina 0,000 N 0,003 W.",
-    manualKeyHint: "La clave (ej. UNA_FRASE_PARECIDA_123) estÃ¡ escrita en la pÃ¡gina 0,000 N 0,006 W."
+    qrCodeLocationHint: "El QR para este desafío está guardada en algún lugar de la página 0,000 N 0,003 W.",
+    manualKeyHint: "La clave (ej. UNA_FRASE_PARECIDA_123) está escrita en la página 0,000 N 0,006 W."
   },
   { 
     id: 2, 
@@ -38,14 +26,14 @@ export const DESAFIOS: Challenge[] = [
     bookWord: 'latitud', 
     points: 15, 
     completed: false,
-    questionPrompt: "Es la evidencia tangible de un proceso pedagÃ³gico que respeta los ritmos naturales del apredizaje creativo; el resultado final del taller de Escritura creativa",
+    questionPrompt: "Es la evidencia tangible de un proceso pedagógico que respeta los ritmos naturales del aprendizaje creativo; el resultado final del taller de Escritura creativa",
     correctAnswer: "el mapa parlante", 
-    successMessage: "Ya estÃ¡s en el territorio de los sentidos, el mapa te habla, el camino sigue.",
-    answerHintInBook: "Esta es una invitaciÃ³n a confiar en los procesos, leyendo la pÃ¡gina 1,111 N 1,016 W encontrarÃ¡s la respuesta.",
-    bookWordLocationHint: "La palabra clave es la coordenada del viaje que representa la imaginaciÃ³n infinita, segÃºn el texto de la pÃ¡gina 1,111 N 1,009 W.",
+    successMessage: "Ya estás en el territorio de los sentidos, el mapa te habla, el camino sigue.",
+    answerHintInBook: "Esta es una invitación a confiar en los procesos, leyendo la página 1,111 N 1,016 W encontrarás la respuesta.",
+    bookWordLocationHint: "La palabra clave es la coordenada del viaje que representa la imaginación infinita, según el texto de la página 1,111 N 1,009 W.",
     nextQrHint: null,
-    qrCodeLocationHint: "EncontrarÃ¡s el QR cerca de la rosa de los vientos, en la pÃ¡gina 0,000 N 0,006 W",
-    manualKeyHint: "La clave (ej. UNA_FRASE_PARECIDA_456) se encuentra cerca de la brÃºjula de la introducciÃ³n."
+    qrCodeLocationHint: "Encontrarás el QR cerca de la rosa de los vientos, en la página 0,000 N 0,006 W",
+    manualKeyHint: "La clave (ej. UNA_FRASE_PARECIDA_456) se encuentra cerca de la brújula de la introducción."
   },
   { 
     id: 3, 
@@ -54,14 +42,14 @@ export const DESAFIOS: Challenge[] = [
     bookWord: 'faros', 
     points: 20, 
     completed: false,
-    questionPrompt: "CuÃ¡l es el nombre de la obra teatral realizada por niÃ±os y niÃ±as del Centro Educativo Corrales",
+    questionPrompt: "Cuál es el nombre de la obra teatral realizada por niños y niñas del Centro Educativo Corrales",
     correctAnswer: "nuestro pueblo", 
-    successMessage: "Y como en el propio pueblo todo concluyÃ³ en fiesta, porque aquÃ­ en PiendamÃ³-TunÃ­a todo se celebra con alegrÃ­a.",
-    answerHintInBook: "En la pÃ¡gina 2,222N 2,020W puedes encontrar la respuesta",
-    bookWordLocationHint: "Esta palabra utilizada como metÃ¡fora de los ojos de los niÃ±os y las niÃ±as la puedes encontrar en el segundo parrafo del texto Nuestro Pueblo",
+    successMessage: "Y como en el propio pueblo todo concluyó en fiesta, porque aquí en Piendamó-Tunía todo se celebra con alegría.",
+    answerHintInBook: "En la página 2,222N 2,020W puedes encontrar la respuesta",
+    bookWordLocationHint: "Esta palabra utilizada como metáfora de los ojos de los niños y las niñas la puedes encontrar en el segundo párrafo del texto Nuestro Pueblo",
     nextQrHint: null,
-    qrCodeLocationHint: "El QR del PUEBLO estÃ¡ en la pÃ¡gina 2,222 N 2,026 W, al lado de unos niÃ±os muy felices.",
-    manualKeyHint: "La clave (ej. PEAK_KEY_EXAMPLE_789) estÃ¡ impresa en vertical al margen de la pÃ¡gina 1,111Â°N - 1,015Â°W."
+    qrCodeLocationHint: "El QR del PUEBLO está en la página 2,222 N 2,026 W, al lado de unos niños muy felices.",
+    manualKeyHint: "La clave (ej. PEAK_KEY_EXAMPLE_789) está impresa en vertical al margen de la página 1,111°N - 1,015°W."
   },
   { 
     id: 4, 
@@ -70,30 +58,46 @@ export const DESAFIOS: Challenge[] = [
     bookWord: 'la huella', 
     points: 25, 
     completed: false,
-    questionPrompt: "Â¿QuÃ© es lo que propone una nueva forma de relacionarse con el entorno: no solo caminar por Ã©l, sino recolectar fragmentos de su belleza?",
+    questionPrompt: "¿Qué es lo que propone una nueva forma de relacionarse con el entorno: no solo caminar por él, sino recolectar fragmentos de su belleza?",
     correctAnswer: "El collage natural", 
-    successMessage: "Los caminos vibran en armonÃ­a, y un pasaje oculto resplandece ante ti.",
-    answerHintInBook: "Busca la respuesta en la pÃ¡gina 3,333Â°N - 3,032Â°W capÃ­tulo 2.",
-    bookWordLocationHint: "MÃ¡s que una simple marca, se convierte en territorio de exploraciÃ³n. Busca esta palabra en el pÃ¡rrafo 2 del capÃ­tulo 1 del taller de artes plÃ¡sticas .",
+    successMessage: "Los caminos vibran en armonía, y un pasaje oculto resplandece ante ti.",
+    answerHintInBook: "Busca la respuesta en la página 3,333°N - 3,032°W capítulo 2.",
+    bookWordLocationHint: "Más que una simple marca, se convierte en territorio de exploración. Busca esta palabra en el párrafo 2 del capítulo 1 del taller de artes plásticas.",
     nextQrHint: null,
-    qrCodeLocationHint: "El QR de la Creatividad estÃ¡ junto a la ilustraciÃ³n de la niÃ±a vestida de mar en la pÃ¡gina 3,333 N 3,029 W.",
-    manualKeyHint: "Busca la clave (ej. CAVES_KEY_GLIMMER_234) en una orilla de la pÃ¡gina 2,222Â°N - 2,023Â°W."
+    qrCodeLocationHint: "El QR de la Creatividad está junto a la ilustración de la niña vestida de mar en la página 3,333 N 3,029 W.",
+    manualKeyHint: "Busca la clave (ej. CAVES_KEY_GLIMMER_234) en una orilla de la página 2,222°N - 2,023°W."
+  },
+  { 
+    id: 5, 
+    name: 'Cambios de Rol', 
+    apiKey: 'EL_ARTE_COMO_BRÚJULA_005', 
+    bookWord: 'módulo', 
+    points: 30, 
+    completed: false,
+    questionPrompt: "Según Albeiro Álvarez No es un lujo, sino una herramienta esencial para desarrollar pensamiento crítico y resolución de problemas.",
+    correctAnswer: "la escritura creativa", 
+    successMessage: "Con un clic satisfactorio, los pasos siguen, revelando nuevas maravillas en el camino.",
+    answerHintInBook: "Encuentra la respuesta a esta pregunta al lado de la foto de la página 4,444°N - 4,040°W.",
+    bookWordLocationHint: "Cada una de las partes en que está dividida la capacitación a docentes, encuentra esta palabra clave en la página 4,444°N - 4,039°W.",
+    nextQrHint: null,
+    qrCodeLocationHint: "Encuentra el código QR en la página donde se habla de Nuevas Tecnologías de IA en Procesos Educativos Rurales.",
+    manualKeyHint: "Encuentra la clave en la página 3,333°N - 3,033°W al lado de las niñas y niños que dibujan sobre las sillas."
   },
   { 
     id: 6, 
-    name: 'La pared cambiÃ³ de piel', 
-    apiKey: 'ESTO_SE_PUSO_Ã‰PICO_006', 
+    name: 'La pared cambió de piel', 
+    apiKey: 'ESTO_SE_PUSO_ÉPICO_006', 
     bookWord: 'mural', 
     points: 20, 
     completed: false,
-    questionPrompt: "Â¿QuÃ© espacio del Centro Educativo Corrales se utilizÃ³ para ser resignificado?",
-    correctAnswer: "el aula mÃºltiple", 
-    successMessage: "La gran pared escamada cambia de piel, otorgÃ¡ndote paso seguro a travÃ©s de sus historias.",
-    answerHintInBook: "Busca la respuesta en el capÃ­tulo ResignificaciÃ³n de un espacio educativo.",
-    bookWordLocationHint: "Esta palabra es una forma de expresiÃ³n artÃ­stica utilizada para Resignificar un espacio en el Centro Educativo Corrales, encuÃ©ntrala en la pÃ¡gina 5,555Â°N - 5,043Â°W.",
+    questionPrompt: "¿Qué espacio del Centro Educativo Corrales se utilizó para ser resignificado?",
+    correctAnswer: "el aula múltiple", 
+    successMessage: "La gran pared escamada cambia de piel, otorgándote paso seguro a través de sus historias.",
+    answerHintInBook: "Busca la respuesta en el capítulo Resignificación de un espacio educativo.",
+    bookWordLocationHint: "Esta palabra es una forma de expresión artística utilizada para Resignificar un espacio en el Centro Educativo Corrales, encuéntrala en la página 5,555°N - 5,043°W.",
     nextQrHint: null,
-    qrCodeLocationHint: "Encuentra el cÃ³digo QR en la pÃ¡gina donde se habla de resignificaciÃ³n de un espacio educativo.",
-    manualKeyHint: "La clave (ej. PASS_KEY_SCALES_345) se encuentra en la pÃ¡gina 4,444Â°N - 4,041Â°W."
+    qrCodeLocationHint: "Encuentra el código QR en la página donde se habla de resignificación de un espacio educativo.",
+    manualKeyHint: "La clave (ej. PASS_KEY_SCALES_345) se encuentra en la página 4,444°N - 4,041°W."
   },
   { 
     id: 7, 
@@ -102,14 +106,14 @@ export const DESAFIOS: Challenge[] = [
     bookWord: 'puente', 
     points: 35, 
     completed: false,
-    questionPrompt: "Â¿En quÃ© tipo de metodologÃ­a se ha convertido el caminar, segÃºn el texto de las conclusiones?",
+    questionPrompt: "¿En qué tipo de metodología se ha convertido el caminar, según el texto de las conclusiones?",
     correctAnswer: "transformadora", 
-    successMessage: "El camino resplandece, y los pasos del destino se realinean, concediÃ©ndote una visiÃ³n del viaje de los sueÃ±os.",
-    answerHintInBook: "Busca la respuesta en la primera pÃ¡gina del capÃ­tulo de las Conclusiones.",
-    bookWordLocationHint: "Palabra que se usa como metÃ¡fora que conecta la experiencia sensorial directa con las posibilidades del mundo digital y la puedes encontrar en la pÃ¡gina 6,666Â°N - 6,046Â°W.",
+    successMessage: "El camino resplandece, y los pasos del destino se realinean, concediéndote una visión del viaje de los sueños.",
+    answerHintInBook: "Busca la respuesta en la primera página del capítulo de las Conclusiones.",
+    bookWordLocationHint: "Palabra que se usa como metáfora que conecta la experiencia sensorial directa con las posibilidades del mundo digital y la puedes encontrar en la página 6,666°N - 6,046°W.",
     nextQrHint: null,
-    qrCodeLocationHint: "Encuentra el cÃ³digo QR en las conclusiones al lado del texto Impacto comunitario.",
-    manualKeyHint: "La clave (ej. LOOM_KEY_SILK_567) se encuentra en la primera pÃ¡gina de CapacitaciÃ³n a docentes."
+    qrCodeLocationHint: "Encuentra el código QR en las conclusiones al lado del texto Impacto comunitario.",
+    manualKeyHint: "La clave (ej. LOOM_KEY_SILK_567) se encuentra en la primera página de Capacitación a docentes."
   },
   { 
     id: 8, 
@@ -118,29 +122,13 @@ export const DESAFIOS: Challenge[] = [
     bookWord: 'el arte', 
     points: 40, 
     completed: false,
-    questionPrompt: "esta acciÃ³n se ha convertido en una metodologÃ­a transformadora segÃºn se dice en el primer pÃ¡rrafo de las conclusiones.",
+    questionPrompt: "esta acción se ha convertido en una metodología transformadora según se dice en el primer párrafo de las conclusiones.",
     correctAnswer: "caminar", 
-    successMessage: "Un profundo entendimiento amanece, y la puerta final se abre, revelando la cÃºspide de tu bÃºsqueda.",
-    answerHintInBook: "Busca la respuesta en el primer pÃ¡rrafo de las Conclusiones.",
-    bookWordLocationHint: "Es considerado como territorio de encuentro, segÃºn un tÃ­tulo de las conclusiones.",
+    successMessage: "Un profundo entendimiento amanece, y la puerta final se abre, revelando la cúspide de tu búsqueda.",
+    answerHintInBook: "Busca la respuesta en el primer párrafo de las Conclusiones.",
+    bookWordLocationHint: "Es considerado como territorio de encuentro, según un título de las conclusiones.",
     nextQrHint: null, 
-    qrCodeLocationHint: "Encuentra el cÃ³digo QR al final de las conclusiones.",
-    manualKeyHint: "La clave (ej. SHRINE_KEY_WHISPER_786) se encuentra en uno de los lados de la pÃ¡gina 5,555Â°N - 5,044Â°W."
-  },
-   { 
-    id: 9, 
-   name: 'Cambios de Rol', 
-    apiKey: 'EL_ARTE_COMO_BRÃšJULA_005', 
-    bookWord: 'mÃ³dulo', 
-    points: 30, 
-    completed: false,
-    questionPrompt: "SegÃºn Albeiro Ãlvarez No es un lujo, sino una herramienta esencial para desarrollar pensamiento crÃ­tico y resoluciÃ³n de problemas.",
-    correctAnswer: "la escritura creativa", 
-    successMessage: "Con un clic satisfactorio, los pasos siguen, revelando nuevas maravillas en el camino.",
-    answerHintInBook: "Encuentra la respuesta a esta pregunta al lado de la foto de la pÃ¡gina 4,444Â°N - 4,040Â°W.",
-    bookWordLocationHint: "Cada una de las partes en que estÃ¡ dividida la capacitaciÃ³n a docentes, encuentra esta palabra clave en la pÃ¡gina 4,444Â°N - 4,039Â°W.",
-    nextQrHint: null,
-    qrCodeLocationHint: "Encuentra el cÃ³digo QR en la pÃ¡gina donde se habla de Nuevas TecnologÃ­as de IA en Procesos Educativos Rurales.",
-    manualKeyHint: "Encuentra la clave en la pÃ¡gina 3,333Â°N - 3,033Â°W al lado de las niÃ±as y niÃ±os que dibujan sobre las sillas."
-  },
+    qrCodeLocationHint: "Encuentra el código QR al final de las conclusiones.",
+    manualKeyHint: "La clave (ej. SHRINE_KEY_WHISPER_786) se encuentra en uno de los lados de la página 5,555°N - 5,044°W."
+  }
 ];
